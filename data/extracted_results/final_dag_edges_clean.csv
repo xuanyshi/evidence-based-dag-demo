@@ -1,0 +1,575 @@
+biggest,loe,count,Source,Target,Type,p_excitatory,p_no_change,p_inhibitory
+excitatory,0.394,4,C-Reactive Protein Level,Diabetes Mellitus,Peer Interaction,0.596,0.202,0.202
+excitatory,0.31,8,C-Reactive Protein Level,Atrial Fibrillation And Flutter,Peer Interaction,0.54,0.23,0.23
+excitatory,0.31,8,C-Reactive Protein Level,Atrial Fibrillation,Peer Interaction,0.54,0.23,0.23
+excitatory,0.295,5,Cardiac Arrhythmias,Diabetes Mellitus,Peer Interaction,0.53,0.235,0.235
+excitatory,0.295,5,Atrial Fibrillation,Diabetes Mellitus,Peer Interaction,0.53,0.235,0.235
+inhibitory,0.276,5,Pregnancy-Related Infections And Complications,Cardiovascular Disease,Peer Interaction,0.241,0.241,0.517
+inhibitory,0.269,6,Pregnancy-Related Infections And Complications,Coronary Artery Disease,Peer Interaction,0.244,0.244,0.513
+inhibitory,0.269,3,Medication Use,Thrombosis And Thromboembolism,Peer Interaction,0.244,0.244,0.513
+excitatory,0.257,21,C-Reactive Protein Level,Coronary Artery Disease,Peer Interaction,0.505,0.185,0.31
+excitatory,0.251,18,C-Reactive Protein Level,Cardiovascular Disease,Peer Interaction,0.501,0.187,0.312
+inhibitory,0.25,2,Medication Use,Venous Thromboembolism,Peer Interaction,0.25,0.25,0.5
+inhibitory,0.25,5,Pregnancy-Related Infections And Complications,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.25,0.25,0.5
+excitatory,0.25,2,Antineoplastic And Immunotherapy Treatments,Viral Infections,Peer Interaction,0.5,0.25,0.25
+excitatory,0.25,2,Antineoplastic And Biologic Therapies,Viral Infections,Peer Interaction,0.5,0.25,0.25
+inhibitory,0.164,22,Antineoplastic And Biologic Therapies,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.279,0.279,0.442
+inhibitory,0.164,22,Antineoplastic And Immunotherapy Treatments,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.279,0.279,0.442
+excitatory,0.162,12,C-Reactive Protein Level,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.441,0.279,0.279
+inhibitory,0.161,13,Antineoplastic And Biologic Therapies,Cerebrovascular Disease,Peer Interaction,0.28,0.28,0.44
+inhibitory,0.161,13,Antineoplastic And Immunotherapy Treatments,Hemorrhagic Stroke,Peer Interaction,0.28,0.28,0.44
+inhibitory,0.161,15,Antineoplastic And Biologic Therapies,Stroke Or Transient Ischemic Attack,Peer Interaction,0.28,0.28,0.441
+inhibitory,0.161,13,Antineoplastic And Biologic Therapies,Hemorrhagic Stroke,Peer Interaction,0.28,0.28,0.44
+inhibitory,0.161,25,Antineoplastic And Immunotherapy Treatments,Stroke,Risk Factor,0.28,0.279,0.441
+inhibitory,0.161,15,Antineoplastic And Immunotherapy Treatments,Stroke Or Transient Ischemic Attack,Peer Interaction,0.28,0.28,0.441
+inhibitory,0.161,25,Antineoplastic And Biologic Therapies,Stroke,Risk Factor,0.28,0.279,0.441
+inhibitory,0.161,13,Antineoplastic And Immunotherapy Treatments,Cerebrovascular Disease,Peer Interaction,0.28,0.28,0.44
+inhibitory,0.16,7,Antineoplastic And Biologic Therapies,Coronary Artery Disease,Peer Interaction,0.28,0.28,0.44
+inhibitory,0.16,7,Antineoplastic And Immunotherapy Treatments,Coronary Artery Disease,Peer Interaction,0.28,0.28,0.44
+excitatory,0.16,9,C-Reactive Protein Level,Heart Failure,Peer Interaction,0.44,0.28,0.28
+excitatory,0.159,8,C-Reactive Protein Level,Cerebrovascular Disease,Peer Interaction,0.439,0.28,0.28
+excitatory,0.157,5,Neurologic Disorders Including Epilepsy And Encephalopathy,Functional Limitation,Peer Interaction,0.438,0.281,0.281
+excitatory,0.157,5,Dementia Including Alzheimer Disease,Functional Limitation,Peer Interaction,0.438,0.281,0.281
+excitatory,0.157,5,Hyperglycemia And Hyperosmolar Hyperglycemic State,Functional Limitation,Peer Interaction,0.438,0.281,0.281
+excitatory,0.157,5,Abnormal Biomarker Levels,Inflammatory Disorder,Peer Interaction,0.438,0.281,0.281
+excitatory,0.157,5,Abnormal Biomarker Levels,Inflammatory Disorders,Peer Interaction,0.438,0.281,0.281
+excitatory,0.155,4,C-Reactive Protein Level,Obesity,Peer Interaction,0.437,0.282,0.282
+excitatory,0.155,4,Neurologic Disorders Including Epilepsy And Encephalopathy,Activities Of Daily Living Limitation,Peer Interaction,0.437,0.282,0.282
+excitatory,0.155,5,C-Reactive Protein Level,Stroke,Risk Factor,0.437,0.282,0.282
+excitatory,0.155,4,Dementia Including Alzheimer Disease,Activities Of Daily Living Limitation,Peer Interaction,0.437,0.282,0.282
+excitatory,0.155,6,Antineoplastic And Immunotherapy Treatments,Tuberculosis,Peer Interaction,0.437,0.282,0.282
+excitatory,0.155,7,Abnormal Biomarker Levels,Infection,Peer Interaction,0.437,0.281,0.282
+excitatory,0.155,6,Antineoplastic And Biologic Therapies,Tuberculosis,Peer Interaction,0.437,0.282,0.282
+excitatory,0.155,4,Hyperglycemia And Hyperosmolar Hyperglycemic State,Activities Of Daily Living Limitation,Peer Interaction,0.437,0.282,0.282
+inhibitory,0.155,4,Physical Activity Level,Dementia,Peer Interaction,0.282,0.282,0.437
+inhibitory,0.151,4,Antineoplastic And Immunotherapy Treatments,Falls And Fall Risk,Peer Interaction,0.283,0.283,0.434
+excitatory,0.151,3,Dementia Including Alzheimer Disease,Frailty And Physical Functional Status,Peer Interaction,0.434,0.283,0.283
+inhibitory,0.151,4,Antineoplastic And Biologic Therapies,Falls And Fall Risk,Peer Interaction,0.283,0.283,0.434
+excitatory,0.151,3,Neurologic Disorders Including Epilepsy And Encephalopathy,Frailty And Physical Functional Status,Peer Interaction,0.434,0.283,0.283
+excitatory,0.151,3,Neurologic Disorders Including Epilepsy And Encephalopathy,Frailty And Functional Status,Peer Interaction,0.434,0.283,0.283
+excitatory,0.151,3,Dementia Including Alzheimer Disease,Frailty And Functional Status,Peer Interaction,0.434,0.283,0.283
+inhibitory,0.151,5,Antineoplastic And Immunotherapy Treatments,Cardiovascular Disease,Peer Interaction,0.283,0.283,0.434
+excitatory,0.151,3,Hyperglycemia And Hyperosmolar Hyperglycemic State,Frailty And Physical Functional Status,Peer Interaction,0.434,0.283,0.283
+inhibitory,0.151,3,Physical Activity Level,Dementia Including Alzheimer Disease,Peer Interaction,0.283,0.283,0.434
+excitatory,0.151,4,C-Reactive Protein Level,Ischemic Stroke,Peer Interaction,0.434,0.283,0.283
+excitatory,0.151,3,Hyperglycemia And Hyperosmolar Hyperglycemic State,Frailty And Functional Status,Peer Interaction,0.434,0.283,0.283
+inhibitory,0.151,5,Antineoplastic And Biologic Therapies,Cardiovascular Disease,Peer Interaction,0.283,0.283,0.434
+inhibitory,0.144,5,Pregnancy-Related Infections And Complications,Dementia Including Alzheimer Disease,Peer Interaction,0.285,0.285,0.429
+excitatory,0.144,2,Blood Urea Nitrogen Level,Cardiovascular Disease,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Dementia Including Alzheimer Disease,Dementia,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,3,Race And Ethnicity,Transplantation And Renal Replacement Therapy,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Blood Urea Nitrogen Level,Coronary Artery Disease,Peer Interaction,0.429,0.285,0.285
+inhibitory,0.144,2,Antineoplastic And Biologic Therapies,Heart Failure,Peer Interaction,0.285,0.285,0.429
+inhibitory,0.144,2,Antineoplastic And Biologic Therapies,Coronary Stent Status And Complications,Peer Interaction,0.285,0.285,0.429
+inhibitory,0.144,2,Antineoplastic And Immunotherapy Treatments,Coronary Stent Status And Complications,Peer Interaction,0.285,0.285,0.429
+excitatory,0.144,2,C-Reactive Protein Level,Immune System Disorders And Immunodeficiency,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,3,Race And Ethnicity,Kidney Disease And Renal Replacement Therapy,Peer Interaction,0.429,0.285,0.285
+inhibitory,0.144,3,Pregnancy-Related Infections And Complications,Infection,Peer Interaction,0.285,0.285,0.429
+excitatory,0.144,2,Antineoplastic And Immunotherapy Treatments,Medication Use And Adherence,Peer Interaction,0.429,0.285,0.285
+inhibitory,0.144,2,Antineoplastic And Immunotherapy Treatments,Heart Failure,Peer Interaction,0.285,0.285,0.429
+inhibitory,0.144,2,Antiviral Medications,Influenza Vaccine,Determinant,0.285,0.285,0.429
+excitatory,0.144,2,Neurologic Disorders Including Epilepsy And Encephalopathy,Dementia,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,C-Reactive Protein Level,Arteritis And Arteriosclerosis Disorders,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Hyperglycemia And Hyperosmolar Hyperglycemic State,Dementia,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,3,C-Reactive Protein Level,Stroke Or Transient Ischemic Attack,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,C-Reactive Protein Level,Obesity And Body Mass Index,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Antineoplastic And Biologic Therapies,Medication Use And Adherence,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Abnormal Biomarker Levels,Viral Infections,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Race And Ethnicity,Obesity And Glycemic Control,Peer Interaction,0.429,0.285,0.285
+excitatory,0.144,2,Race And Ethnicity,Heart Failure,Peer Interaction,0.429,0.285,0.285
+excitatory,0.133,5,C-Reactive Protein Level,Infection,Peer Interaction,0.422,0.284,0.294
+excitatory,0.127,8,Antineoplastic And Immunotherapy Treatments,Infection,Peer Interaction,0.418,0.282,0.3
+excitatory,0.127,8,Antineoplastic And Biologic Therapies,Infection,Peer Interaction,0.418,0.282,0.3
+excitatory,0.125,2,Antiviral Medications,Tuberculosis,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antiviral Medications,Multiple Sclerosis,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,2,Immunosuppression And Immunomodulatory Therapy,Risk Factors And Risk Assessment,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,5,Antiviral Medications,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Race And Ethnicity,Remote Monitoring And Telehealth Services,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Race And Ethnicity,Healthcare Access,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Race And Ethnicity,Cardiovascular Disease,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Race And Ethnicity,Immune-Mediated Disease,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Race And Ethnicity,Immunosuppression And Immunomodulatory Therapy,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Race And Ethnicity,Inflammatory Disorders,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Race And Ethnicity,Cardiovascular Disease And Hemodynamic Support,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Race And Ethnicity,Obesity,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,5,Antiviral Medications,Ischemic Stroke,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Race And Ethnicity,Obesity And Body Mass Index,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Race And Ethnicity,Diabetes Mellitus,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Immunosuppression And Immunomodulatory Therapy,Arthritis And Inflammatory Disorders,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Immunosuppression And Immunomodulatory Therapy,Dermatitis,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Immunosuppression And Immunomodulatory Therapy,Adverse Drug Reactions,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antiviral Medications,Viral Infections,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antiviral Medications,Quality Of Life,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Family Medical History,Cardiovascular Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,5,Antiviral Medications,Stroke,Risk Factor,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Gastrointestinal Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Abnormal Biomarker Levels,Stroke,Risk Factor,0.417,0.292,0.292
+excitatory,0.125,1,Alcohol Use Disorder,Dementia,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Alcohol Use Disorder,Infection,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Arteritis And Arteriosclerosis Disorders,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Gastrointestinal Diseases,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Health-Related Quality Of Life,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Liver Disease,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Inflammatory Disorder,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,2,Antineoplastic And Biologic Therapies,Functional Dependence,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Allergic And Hypersensitivity Disorders,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Thrombocytopenia And Platelet Disorders,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Biologic Therapies,Race And Ethnicity,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Multiple Sclerosis,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Immune-Mediated Disease,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Medication Use,Stroke,Risk Factor,0.292,0.292,0.417
+excitatory,0.125,5,Antiviral Medications,Coronary Artery Disease,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Biologic Therapies,Health Status And Severity Scoring Systems,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,2,Antineoplastic And Biologic Therapies,Functional Limitation,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Malignant Neoplasm With Metastasis,Arthritis And Inflammatory Disorders,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Neurologic Disorders Including Epilepsy And Encephalopathy,Employment Status And Work Disability,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Neurologic Disorders Including Epilepsy And Encephalopathy,Dementia Including Alzheimer Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Neurologic Disorders Including Epilepsy And Encephalopathy,Employment And Work Disability,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Health Literacy And Education,Diabetes Mellitus,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Blood Urea Nitrogen Level,Heart Failure,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Blood Urea Nitrogen Level,Thrombosis And Thromboembolism,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Blood Urea Nitrogen Level,Cerebrovascular Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Blood Urea Nitrogen Level,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Blood Urea Nitrogen Level,Venous Thromboembolism,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Dementia Including Alzheimer Disease,Employment Status And Work Disability,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Dementia Including Alzheimer Disease,Employment And Work Disability,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Race And Ethnicity,Cerebrovascular Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Race And Ethnicity,Coronary Artery Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Race And Ethnicity,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Immune-Mediated Disease,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Abnormal Biomarker Levels,Heart Failure,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Health Literacy,Diabetes Mellitus,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Dietary Intake And Eating Behaviors,Activities Of Daily Living Limitation,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,2,Antineoplastic And Immunotherapy Treatments,Functional Limitation,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Health Status And Severity Scoring Systems,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Gastrointestinal Disease,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Multiple Sclerosis,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Abnormal Biomarker Levels,Immune Dysregulation And Systemic Inflammatory Response,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Race And Ethnicity,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Thrombocytopenia And Platelet Disorders,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Allergic And Hypersensitivity Disorders,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,2,Antineoplastic And Immunotherapy Treatments,Functional Dependence,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Inflammatory Disorder,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Liver Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Abnormal Biomarker Levels,Coronary Artery Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Abnormal Biomarker Levels,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Gastrointestinal Diseases,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Immunosuppression And Immunomodulatory Therapy,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Family Medical History,Coronary Artery Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,C-Reactive Protein Level,Hemorrhagic Stroke,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Functional Limitation,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Immune Dysregulation And Systemic Inflammatory Response,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,C-Reactive Protein Level,Malignant Neoplasm,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,C-Reactive Protein Level,Gastrointestinal Disease,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,C-Reactive Protein Level,Cardiovascular Disease And Hemodynamic Support,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Abnormal Biomarker Levels,Ischemic Stroke,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Activities Of Daily Living Limitation,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,C-Reactive Protein Level,Gastrointestinal Diseases,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,C-Reactive Protein Level,Malignant Neoplasm With Metastasis,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Psychiatric Disorders,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Mental Health Conditions,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,C-Reactive Protein Level,Hypertension,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Antineoplastic And Immunotherapy Treatments,Health-Related Quality Of Life,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Dietary Intake And Eating Behaviors,Functional Limitation,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,3,Pregnancy-Related Infections And Complications,Diabetes Mellitus,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Pregnancy-Related Infections And Complications,Viral Infections,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Antineoplastic And Immunotherapy Treatments,Arteritis And Arteriosclerosis Disorders,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Medication Use,Stroke Or Transient Ischemic Attack,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Medication Use,Cerebrovascular Disease,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Pregnancy-Related Infections And Complications,Chronic Respiratory Disease,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Physical Activity Level,Obesity And Glycemic Control,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Physical Activity Level,Obesity,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Physical Activity Level,Obesity And Body Mass Index,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Medication Use,Ischemic Stroke And Cardiovascular Events,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Gastrointestinal Disease,Gastroesophageal Reflux Disease,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Physical Activity Level,Hypertension,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Pregnancy-Related Infections And Complications,Hemorrhagic Stroke,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,3,Pregnancy-Related Infections And Complications,Ischemic Stroke,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Medication Use,Hemorrhagic Stroke,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,1,Malignant Neoplasm,Arthritis And Inflammatory Disorders,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Physical Activity Level,Diabetes Mellitus,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.125,1,Medication Use,Ischemic Stroke,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Hyperglycemia And Hyperosmolar Hyperglycemic State,Employment Status And Work Disability,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Hyperglycemia And Hyperosmolar Hyperglycemic State,Dementia Including Alzheimer Disease,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,2,Hyperglycemia And Hyperosmolar Hyperglycemic State,Employment And Work Disability,Peer Interaction,0.417,0.292,0.292
+excitatory,0.125,1,Gastrointestinal Disease,Arthritis And Inflammatory Disorders,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Pregnancy-Related Infections And Complications,Chronic Kidney Disease,Peer Interaction,0.292,0.292,0.417
+excitatory,0.125,2,Pregnancy-Related Infections And Complications,Stroke Or Transient Ischemic Attack,Peer Interaction,0.417,0.292,0.292
+inhibitory,0.125,1,Physical Activity Level,Cerebrovascular Disease,Peer Interaction,0.292,0.292,0.417
+inhibitory,0.105,6,Pregnancy-Related Infections And Complications,Dementia,Peer Interaction,0.309,0.287,0.404
+inhibitory,0.105,3,Abnormal Biomarker Levels,Diabetes Mellitus,Peer Interaction,0.309,0.287,0.404
+inhibitory,0.091,23,Antineoplastic And Immunotherapy Treatments,Ischemic Stroke,Peer Interaction,0.375,0.231,0.394
+inhibitory,0.091,23,Antineoplastic And Biologic Therapies,Ischemic Stroke,Peer Interaction,0.375,0.231,0.394
+excitatory,0.081,3,Immunosuppression And Immunomodulatory Therapy,Infection,Peer Interaction,0.388,0.244,0.369
+excitatory,0.063,3,C-Reactive Protein Level,Inflammatory Disorders,Peer Interaction,0.375,0.25,0.375
+inhibitory,0.063,5,Pregnancy-Related Infections And Complications,Stroke,Risk Factor,0.375,0.25,0.375
+excitatory,0.063,3,C-Reactive Protein Level,Inflammatory Disorder,Peer Interaction,0.375,0.25,0.375
+excitatory,0.03,3,Antineoplastic And Immunotherapy Treatments,Quality Of Life,Peer Interaction,0.354,0.293,0.354
+excitatory,0.03,5,Antineoplastic And Immunotherapy Treatments,Arterial Structure,Peer Interaction,0.354,0.293,0.354
+excitatory,0.03,3,Antineoplastic And Biologic Therapies,Quality Of Life,Peer Interaction,0.354,0.293,0.354
+excitatory,0.03,2,Cardiac Arrhythmias,Heart Failure,Peer Interaction,0.354,0.293,0.354
+excitatory,0.03,5,Antineoplastic And Biologic Therapies,Arterial Structure,Peer Interaction,0.354,0.293,0.354
+excitatory,0.03,2,Atrial Fibrillation,Heart Failure,Peer Interaction,0.354,0.293,0.354
+No Data,0.0,0,Metabolic And Nutritional Biomarkers,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Genomic And Proteomic Markers,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Pain,Stroke,Risk Factor,,,
+No Data,0.0,0,Fluid Balance And Body Compartment Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Family Medical History,Stroke,Risk Factor,,,
+No Data,0.0,0,Pain,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Family Medical History,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Metabolic And Nutritional Biomarkers,Stroke,Risk Factor,,,
+No Data,0.0,0,Fluid Balance And Body Compartment Status,Stroke,Risk Factor,,,
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Malignant Neoplasm With Metastasis,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Domestic Animal Exposure,Stroke,Risk Factor,,,
+No Data,0.0,0,Basilar Artery Occlusion,Stroke,Risk Factor,,,
+No Data,0.0,0,Basilar Artery Occlusion,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Urinary Tract Infection,Stroke,Risk Factor,,,
+No Data,0.0,0,Rhinitis,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Rhinitis,Stroke,Risk Factor,,,
+No Data,0.0,0,"Congenital And Structural Abnormalities Of Spine, Brain, And Cerebrovascular System",Influenza Vaccine,Determinant,,,
+No Data,0.0,0,"Congenital And Structural Abnormalities Of Spine, Brain, And Cerebrovascular System",Stroke,Risk Factor,,,
+No Data,0.0,0,Neonatal And Acute Encephalopathy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neonatal And Acute Encephalopathy,Stroke,Risk Factor,,,
+No Data,0.0,0,C-Reactive Protein Level,Influenza Vaccine,Determinant,,,
+excitatory,-0.0,1,C-Reactive Protein Level,Viral Infections,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Abnormal Blood Cell Counts,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Abnormal Blood Cell Counts,Stroke,Risk Factor,,,
+No Data,0.0,0,Dietary Intake,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dietary Intake,Stroke,Risk Factor,,,
+No Data,0.0,0,Genetic Predisposition,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Genetic Predisposition,Stroke,Risk Factor,,,
+No Data,0.0,0,Venous Thromboembolism,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Venous Thromboembolism,Stroke,Risk Factor,,,
+No Data,0.0,0,Dental And Oral Health Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dental And Oral Health Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Viral Infections,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Viral Infections,Stroke,Risk Factor,,,
+No Data,0.0,0,Domestic Animal Exposure,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cellular And Genetic Processes,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Genetic And Molecular Biomarkers,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Genetic And Molecular Biomarkers,Stroke,Risk Factor,,,
+No Data,0.0,0,Genomic And Proteomic Markers,Stroke,Risk Factor,,,
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Clinical Monitoring And Surveillance,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Cellular And Genetic Processes,Stroke,Risk Factor,,,
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Overall Health Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Venous Thromboembolism,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,2,Pregnancy-Related Infections And Complications,Malignant Neoplasm,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Pregnancy-Related Infections And Complications,Cerebrovascular Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Iron Metabolism Disorders,Asthma And Obstructive Lung Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Gastrointestinal Diseases,Asthma And Obstructive Lung Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Thrombosis And Thromboembolism,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Malignant Neoplasm,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antiviral Medications,Neuropsychiatric Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Venous Thromboembolism,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Neuropsychiatric Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antiviral Medications,Psychiatric Disorders,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Depression,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Blood Urea Nitrogen Level,Malignant Neoplasm,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Diabetes Mellitus,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,General Health Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,Clinical Monitoring And Surveillance,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Immunotherapy Treatments,General Clinical Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,General Clinical Status,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Arterial Structure,Influenza Vaccine,Determinant,,,
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Depression,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Arterial Structure,Stroke,Risk Factor,,,
+excitatory,-0.0,1,Alcohol Use Disorder,Chronic Kidney Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Alcohol Use Disorder,Chronic Respiratory Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Diabetes Mellitus,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Neuromuscular Paralysis Disorders,Stroke,Risk Factor,,,
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Malignant Neoplasm With Metastasis,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,General Health Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Neuropsychiatric Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Dietary Intake And Eating Behaviors,Obesity And Body Mass Index,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Pregnancy-Related Infections And Complications,Malignant Neoplasm With Metastasis,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Hematologic Disease,Asthma And Obstructive Lung Disease,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Overall Health Status,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Malignant Neoplasm,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Dietary Intake And Eating Behaviors,Obesity And Glycemic Control,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Antineoplastic And Biologic Therapies,Thrombosis And Thromboembolism,Peer Interaction,0.333,0.333,0.333
+excitatory,-0.0,1,Dietary Intake And Eating Behaviors,Obesity,Peer Interaction,0.333,0.333,0.333
+No Data,0.0,0,Urinary Tract Infection,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Tobacco Smoking,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neuromuscular Paralysis Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Immune System Disorders And Immunodeficiency,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Age And Disease Staging,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Age And Disease Staging,Stroke,Risk Factor,,,
+No Data,0.0,0,Clinical Monitoring And Surveillance,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Clinical Monitoring And Surveillance,Stroke,Risk Factor,,,
+No Data,0.0,0,General Health Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,General Health Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Immune System Disorders And Immunodeficiency,Stroke,Risk Factor,,,
+No Data,0.0,0,Healthcare Access And Utilization,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Activities Of Daily Living Limitation,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Activities Of Daily Living Limitation,Stroke,Risk Factor,,,
+No Data,0.0,0,Quality Of Life,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Quality Of Life,Stroke,Risk Factor,,,
+No Data,0.0,0,Health-Related Quality Of Life,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health-Related Quality Of Life,Stroke,Risk Factor,,,
+No Data,0.0,0,Healthcare Access And Utilization,Stroke,Risk Factor,,,
+No Data,0.0,0,Neurologic Disorders Including Epilepsy And Encephalopathy,Stroke,Risk Factor,,,
+No Data,0.0,0,Multimorbidity And Polypharmacy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Use Of Public Transportation,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Environmental And Occupational Exposure,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Environmental And Occupational Exposure,Stroke,Risk Factor,,,
+No Data,0.0,0,Motivation And Readiness To Change,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Motivation And Readiness To Change,Stroke,Risk Factor,,,
+No Data,0.0,0,Iron Metabolism Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Iron Metabolism Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Use Of Public Transportation,Stroke,Risk Factor,,,
+No Data,0.0,0,Neurologic Disorders Including Epilepsy And Encephalopathy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Gastrointestinal Diseases,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Gastrointestinal Diseases,Stroke,Risk Factor,,,
+No Data,0.0,0,Adverse Drug Reactions,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Adverse Drug Reactions,Stroke,Risk Factor,,,
+No Data,0.0,0,Allostatic Load,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Allostatic Load,Stroke,Risk Factor,,,
+No Data,0.0,0,Healthcare Financial And Administrative Barriers,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Healthcare Financial And Administrative Barriers,Stroke,Risk Factor,,,
+No Data,0.0,0,Liver Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dermatitis,Stroke,Risk Factor,,,
+No Data,0.0,0,Blood Urea Nitrogen Level,Stroke,Risk Factor,,,
+No Data,0.0,0,Cardiac Arrhythmias,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cardiac Arrhythmias,Stroke,Risk Factor,,,
+No Data,0.0,0,Adverse Childhood Experiences,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Adverse Childhood Experiences,Stroke,Risk Factor,,,
+No Data,0.0,0,Dermatitis,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cardiovascular Disease And Hemodynamic Support,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Liver Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Cardiovascular Disease And Hemodynamic Support,Stroke,Risk Factor,,,
+No Data,0.0,0,Kidney Disease And Renal Replacement Therapy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Kidney Disease And Renal Replacement Therapy,Stroke,Risk Factor,,,
+No Data,0.0,0,Dementia,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dementia,Stroke,Risk Factor,,,
+No Data,0.0,0,Neurologic Disorders And Deficits,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Blood Urea Nitrogen Level,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dyslipidemia,Stroke,Risk Factor,,,
+No Data,0.0,0,Dyslipidemia,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health Literacy And Education,Stroke,Risk Factor,,,
+No Data,0.0,0,Health Literacy And Education,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Socioeconomic Status And Factors,Stroke,Risk Factor,,,
+No Data,0.0,0,Socioeconomic Status And Factors,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Functional Dependence,Stroke,Risk Factor,,,
+No Data,0.0,0,Functional Dependence,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Advance Care Planning And Patient Preferences,Stroke,Risk Factor,,,
+No Data,0.0,0,Advance Care Planning And Patient Preferences,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Medical And Treatment Costs Burden,Stroke,Risk Factor,,,
+No Data,0.0,0,Medical And Treatment Costs Burden,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neurodevelopmental Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Neurodevelopmental Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Inflammatory Disorder,Stroke,Risk Factor,,,
+No Data,0.0,0,Inflammatory Disorder,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Multimorbidity And Polypharmacy,Stroke,Risk Factor,,,
+No Data,0.0,0,Platelet Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Frailty And Physical Functional Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Autoimmune Vasculitis With Neuropathy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Atrial Fibrillation And Flutter,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Atrial Fibrillation And Flutter,Stroke,Risk Factor,,,
+No Data,0.0,0,Cognitive Assessment Scores,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cognitive Assessment Scores,Stroke,Risk Factor,,,
+No Data,0.0,0,Central Nervous System Neoplasm,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Central Nervous System Neoplasm,Stroke,Risk Factor,,,
+No Data,0.0,0,Autoimmune Vasculitis With Neuropathy,Stroke,Risk Factor,,,
+No Data,0.0,0,Stroke Or Transient Ischemic Attack,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Financial Resources And Expenditures,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Financial Resources And Expenditures,Stroke,Risk Factor,,,
+No Data,0.0,0,Arteritis And Arteriosclerosis Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Arteritis And Arteriosclerosis Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Coronary Stent Status And Complications,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Coronary Stent Status And Complications,Stroke,Risk Factor,,,
+No Data,0.0,0,Stroke Or Transient Ischemic Attack,Stroke,Risk Factor,,,
+No Data,0.0,0,Obesity And Glycemic Control,Stroke,Risk Factor,,,
+No Data,0.0,0,Platelet Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Obesity And Body Mass Index,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Aortic And Heart Valve Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Aortic And Heart Valve Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Diabetes Mellitus,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Diabetes Mellitus,Stroke,Risk Factor,,,
+No Data,0.0,0,Hypertension,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Hypertension,Stroke,Risk Factor,,,
+No Data,0.0,0,Obesity And Body Mass Index,Stroke,Risk Factor,,,
+No Data,0.0,0,Obesity And Glycemic Control,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Heart Failure,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Heart Failure,Stroke,Risk Factor,,,
+No Data,0.0,0,Obesity,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Obesity,Stroke,Risk Factor,,,
+No Data,0.0,0,Atrial Fibrillation,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Atrial Fibrillation,Stroke,Risk Factor,,,
+No Data,0.0,0,Remote Monitoring And Telehealth Services,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Remote Monitoring And Telehealth Services,Stroke,Risk Factor,,,
+No Data,0.0,0,Basilar Artery Disease And Occlusion,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Coronary Artery Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Alcohol Use Disorder,Stroke,Risk Factor,,,
+No Data,0.0,0,Functional Status Assessment Scales,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Functional Status Assessment Scales,Stroke,Risk Factor,,,
+No Data,0.0,0,Preventive Care,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Preventive Care,Stroke,Risk Factor,,,
+No Data,0.0,0,Antineoplastic And Biologic Therapies,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Coronary Artery Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Basilar Artery Disease And Occlusion,Stroke,Risk Factor,,,
+No Data,0.0,0,Psychiatric Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Psychiatric Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Malignant Neoplasm With Metastasis,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Malignant Neoplasm With Metastasis,Stroke,Risk Factor,,,
+No Data,0.0,0,Gastroesophageal Reflux Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Gastroesophageal Reflux Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Alcohol Use Disorder,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Pregnancy And Perinatal Complications,Stroke,Risk Factor,,,
+No Data,0.0,0,Pregnancy And Perinatal Complications,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Mental Health Conditions,Stroke,Risk Factor,,,
+No Data,0.0,0,Mental Health Conditions,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Asthma And Obstructive Lung Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Asthma And Obstructive Lung Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Chronic Kidney Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Chronic Kidney Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Behavioral Therapy,Stroke,Risk Factor,,,
+No Data,0.0,0,Behavioral Therapy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Vascular Stiffness,Stroke,Risk Factor,,,
+No Data,0.0,0,Vascular Stiffness,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Social Isolation,Stroke,Risk Factor,,,
+No Data,0.0,0,Social Isolation,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Anxiety Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Anxiety Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neurologic Disorders And Deficits,Stroke,Risk Factor,,,
+No Data,0.0,0,Frailty And Physical Functional Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Narcolepsy,Stroke,Risk Factor,,,
+No Data,0.0,0,Transplantation And Renal Replacement Therapy,Stroke,Risk Factor,,,
+No Data,0.0,0,Cerebrovascular Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Dietary Intake And Eating Behaviors,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dietary Intake And Eating Behaviors,Stroke,Risk Factor,,,
+No Data,0.0,0,Neurological Disorder,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neurological Disorder,Stroke,Risk Factor,,,
+No Data,0.0,0,Transplantation And Renal Replacement Therapy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Frailty And Functional Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Thrombosis And Thromboembolism,Stroke,Risk Factor,,,
+No Data,0.0,0,Frailty And Functional Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Health Behaviors And Public Health Context,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health Behaviors And Public Health Context,Stroke,Risk Factor,,,
+No Data,0.0,0,Activities Of Daily Living And Caregiving Context,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Activities Of Daily Living And Caregiving Context,Stroke,Risk Factor,,,
+No Data,0.0,0,Allostatic And Symptom Burden,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cerebrovascular Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Thrombosis And Thromboembolism,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Socioeconomic Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Hyperglycemia And Hyperosmolar Hyperglycemic State,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Exposure To Trauma And Environmental Hazards,Stroke,Risk Factor,,,
+No Data,0.0,0,Pregnancy-Related Infections And Complications,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Allergic And Hypersensitivity Reactions,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Allergic And Hypersensitivity Reactions,Stroke,Risk Factor,,,
+No Data,0.0,0,Malignant Neoplasm,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Malignant Neoplasm,Stroke,Risk Factor,,,
+No Data,0.0,0,Hyperglycemia And Hyperosmolar Hyperglycemic State,Stroke,Risk Factor,,,
+No Data,0.0,0,Antineoplastic And Immunotherapy Treatments,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Immune Dysregulation And Systemic Inflammatory Response,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Immune Dysregulation And Systemic Inflammatory Response,Stroke,Risk Factor,,,
+No Data,0.0,0,Psychosocial And Socioeconomic Factors,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Psychosocial And Socioeconomic Factors,Stroke,Risk Factor,,,
+No Data,0.0,0,Infection,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Infection,Stroke,Risk Factor,,,
+No Data,0.0,0,Allostatic And Symptom Burden,Stroke,Risk Factor,,,
+No Data,0.0,0,Central Nervous System Inflammatory Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Central Nervous System Inflammatory Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Intra-Abdominal Conditions,Stroke,Risk Factor,,,
+No Data,0.0,0,Hemorrhagic Stroke,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Hemorrhagic Stroke,Stroke,Risk Factor,,,
+No Data,0.0,0,Ischemic Stroke,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Ischemic Stroke,Stroke,Risk Factor,,,
+No Data,0.0,0,Abnormal Biomarker Levels,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Intra-Abdominal Conditions,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Headache And Migraine Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Emotional And Behavioral Symptoms,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Headache And Migraine Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Movement Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Movement Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Ocular Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Tobacco Smoking,Stroke,Risk Factor,,,
+No Data,0.0,0,Narcolepsy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Ischemic Stroke And Cardiovascular Events,Stroke,Risk Factor,,,
+No Data,0.0,0,Ischemic Stroke And Cardiovascular Events,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Falls And Fall Risk,Stroke,Risk Factor,,,
+No Data,0.0,0,Falls And Fall Risk,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Employment And Work Disability,Stroke,Risk Factor,,,
+No Data,0.0,0,Employment And Work Disability,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Pregnancy-Related Conditions,Stroke,Risk Factor,,,
+No Data,0.0,0,Pregnancy-Related Conditions,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,General Clinical Status,Stroke,Risk Factor,,,
+No Data,0.0,0,General Clinical Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health Literacy,Stroke,Risk Factor,,,
+No Data,0.0,0,Health Literacy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Functional Limitation,Stroke,Risk Factor,,,
+No Data,0.0,0,Functional Limitation,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health Status And Severity Scoring Systems,Stroke,Risk Factor,,,
+No Data,0.0,0,Health Status And Severity Scoring Systems,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Emotional And Behavioral Symptoms,Stroke,Risk Factor,,,
+No Data,0.0,0,Exposure To Trauma And Environmental Hazards,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Socioeconomic Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health Risk Factors And Risk Scores,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Parkinson Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Allergic And Hypersensitivity Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Immunosuppression And Immunomodulatory Therapy,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Immunosuppression And Immunomodulatory Therapy,Stroke,Risk Factor,,,
+No Data,0.0,0,Polycystic Kidney And Ovary Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Polycystic Kidney And Ovary Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Parkinson Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Tuberculosis,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Arthritis And Inflammatory Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Tuberculosis,Stroke,Risk Factor,,,
+No Data,0.0,0,Autonomic Nervous System Dysfunction,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Autonomic Nervous System Dysfunction,Stroke,Risk Factor,,,
+No Data,0.0,0,Thrombocytopenia And Platelet Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Thrombocytopenia And Platelet Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Race And Ethnicity,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Allergic And Hypersensitivity Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Arthritis And Inflammatory Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Genetic Syndromes And Congenital Malformations,Stroke,Risk Factor,,,
+No Data,0.0,0,Medication Use And Adherence,Stroke,Risk Factor,,,
+No Data,0.0,0,Health Risk Factors And Risk Scores,Stroke,Risk Factor,,,
+No Data,0.0,0,Employment Status And Work Disability,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Employment Status And Work Disability,Stroke,Risk Factor,,,
+No Data,0.0,0,Chronic Respiratory Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Chronic Respiratory Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Medication Use And Adherence,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Depression,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Dementia Including Alzheimer Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Depression,Stroke,Risk Factor,,,
+No Data,0.0,0,Inflammatory Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Inflammatory Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Hematologic And Lymphatic Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Hematologic And Lymphatic Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Dementia Including Alzheimer Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Race And Ethnicity,Stroke,Risk Factor,,,
+No Data,0.0,0,Psychological Stress And Emotional Symptoms,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Psychological Stress And Emotional Symptoms,Stroke,Risk Factor,,,
+No Data,0.0,0,Neuromuscular And Neurologic Disorders,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Physical Activity Level,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Physical Activity Level,Stroke,Risk Factor,,,
+No Data,0.0,0,Risk Factors And Risk Assessment,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Risk Factors And Risk Assessment,Stroke,Risk Factor,,,
+No Data,0.0,0,Traditional And Herbal Medicine Use,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Traditional And Herbal Medicine Use,Stroke,Risk Factor,,,
+No Data,0.0,0,Neuromuscular And Neurologic Disorders,Stroke,Risk Factor,,,
+No Data,0.0,0,Epilepsy And Seizures,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Medication Use,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Overall Health Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Overall Health Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Healthcare Access,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Healthcare Access,Stroke,Risk Factor,,,
+No Data,0.0,0,Genetic Syndromes And Congenital Malformations,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Gastrointestinal Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Gastrointestinal Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Age,Stroke,Risk Factor,,,
+No Data,0.0,0,Age,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Hematologic Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Hematologic Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Cardiovascular Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Cardiovascular Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Immune-Mediated Disease,Stroke,Risk Factor,,,
+No Data,0.0,0,Immune-Mediated Disease,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Health System Context,Stroke,Risk Factor,,,
+No Data,0.0,0,Health System Context,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Multiple Sclerosis,Stroke,Risk Factor,,,
+No Data,0.0,0,Multiple Sclerosis,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Neuropsychiatric Status,Stroke,Risk Factor,,,
+No Data,0.0,0,Neuropsychiatric Status,Influenza Vaccine,Determinant,,,
+No Data,0.0,0,Epilepsy And Seizures,Stroke,Risk Factor,,,
+No Data,0.0,0,Ocular Disorders,Stroke,Risk Factor,,,
