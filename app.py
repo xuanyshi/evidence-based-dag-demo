@@ -592,29 +592,21 @@ def get_retriever(_all_df: pd.DataFrame) -> EvidenceRetriever:
 
 
 def render_questionnaire() -> None:
-    """Render the interactive evaluation questionnaire."""
-    st.header("System Evaluation Questionnaire")
-    st.caption("Your feedback helps us improve the system and demonstrate its impact.")
+    """Render the scientific evaluation questionnaire."""
+    st.header("System Usability and Impact Evaluation")
+    st.caption(
+        "This questionnaire evaluates the usability, design, and scientific impact of the Evidence-Based DAG Explorer. "
+        "Your responses will contribute to academic research and system improvement."
+    )
     
     # Initialize session state for responses
     if "questionnaire_responses" not in st.session_state:
         st.session_state.questionnaire_responses = None
     
-    # Define answer options with numeric scores (1-5, where 5 is best)
-    satisfaction_options = ["Extremely satisfied (5)", "Very satisfied (4)", "Satisfied (3)", "Somewhat satisfied (2)", "Dissatisfied (1)"]
-    ease_options = ["Very easy - intuitive and clear (5)", "Easy - mostly straightforward (4)", "Moderate - some learning needed (3)", 
-                    "Difficult - required significant guidance (2)", "Very difficult - hard to use (1)"]
-    usefulness_options = ["Extremely useful (5)", "Very useful (4)", "Moderately useful (3)", "Slightly useful (2)", "Not useful (1)"]
-    value_options = ["Extremely valuable (5)", "Very valuable (4)", "Moderately valuable (3)", "Slightly valuable (2)", "Not valuable (1)"]
-    effectiveness_options = ["Extremely effective (5)", "Very effective (4)", "Moderately effective (3)", "Slightly effective (2)", "Not effective (1)"]
-    time_options = ["Significant time savings (hours/days) (5)", "Moderate time savings (hours) (4)", "Some time savings (3)", 
-                    "Minimal time savings (2)", "No time savings (1)"]
-    helpfulness_options = ["Extremely helpful - greatly enhanced understanding (5)", "Very helpful - significantly improved understanding (4)", 
-                           "Moderately helpful - somewhat improved understanding (3)", "Slightly helpful - minimal improvement (2)", "Not helpful (1)"]
-    likelihood_options = ["Very likely - will use regularly (5)", "Likely - will use occasionally (4)", "Possibly - might use in future (3)", 
-                          "Unlikely - probably won't use (2)", "Very unlikely - will not use (1)"]
-    recommend_options = ["Very likely - will definitely recommend (5)", "Likely - will probably recommend (4)", "Possibly - might recommend (3)", 
-                         "Unlikely - probably won't recommend (2)", "Very unlikely - will not recommend (1)"]
+    # Likert scale options (1-5, where 5 is best)
+    likert_5 = ["Strongly Agree (5)", "Agree (4)", "Neutral (3)", "Disagree (2)", "Strongly Disagree (1)"]
+    quality_5 = ["Excellent (5)", "Good (4)", "Adequate (3)", "Poor (2)", "Very Poor (1)"]
+    frequency_5 = ["Always (5)", "Often (4)", "Sometimes (3)", "Rarely (2)", "Never (1)"]
     
     def extract_score(answer: str) -> int:
         """Extract numeric score from answer string."""
@@ -630,185 +622,231 @@ def render_questionnaire() -> None:
         return re.sub(r'\s*\(\d+\)$', '', answer).strip()
     
     with st.form("evaluation_form"):
-        st.markdown("### Please answer the following questions:")
+        st.markdown("""
+        **Instructions**: Please rate each statement based on your experience using the system. 
+        For short-answer questions, provide concise responses (2-3 sentences). 
+        We appreciate your positive feedback and constructive suggestions.
+        """)
         
-        # Q1: Overall satisfaction
-        q1 = st.radio(
-            "**Q1. Overall, how satisfied are you with the Evidence-Based DAG Explorer?**",
-            satisfaction_options,
-            index=None
-        )
-        
-        # Q2: Ease of use
-        q2 = st.radio(
-            "**Q2. How easy was it to use the system?**",
-            ease_options,
-            index=None
-        )
-        
-        # Q3: Network Explorer usefulness
-        q3 = st.radio(
-            "**Q3. How useful did you find the Network Explorer for visualizing causal relationships?**",
-            usefulness_options,
-            index=None
-        )
-        
-        # Q4: Strategy Evidence Viewer value
-        q4 = st.radio(
-            "**Q4. How valuable was the Strategy Evidence Viewer for exploring evidence supporting variable classifications?**",
-            value_options,
-            index=None
-        )
-        
-        # Q5: Evidence Triangulation effectiveness
-        q5 = st.radio(
-            "**Q5. How effective was the Evidence Triangulation module for querying custom exposure-outcome pairs?**",
-            effectiveness_options,
-            index=None
-        )
-        
-        # Q6: Time savings
-        q6 = st.radio(
-            "**Q6. How much time do you estimate this system saved you compared to manual evidence review?**",
-            time_options,
-            index=None
-        )
-        
-        # Q7: Contribution to understanding
-        q7 = st.radio(
-            "**Q7. How would you rate the system's contribution to your understanding of causal relationships?**",
-            helpfulness_options,
-            index=None
-        )
-        
-        # Q8: Likelihood to use
-        q8 = st.radio(
-            "**Q8. How likely are you to use this system in your research or work?**",
-            likelihood_options,
-            index=None
-        )
-        
-        # Q9: Likelihood to recommend
-        q9 = st.radio(
-            "**Q9. How likely are you to recommend this system to colleagues?**",
-            recommend_options,
-            index=None
-        )
-        
-        # Q10: Greatest strengths
-        st.markdown("**Q10. What are the system's greatest strengths? (Please list 2-3 key strengths)**")
-        strength1 = st.text_input("Strength 1:", key="strength1")
-        strength2 = st.text_input("Strength 2:", key="strength2")
-        strength3 = st.text_input("Strength 3:", key="strength3")
-        
-        # Optional information
         st.divider()
-        st.markdown("### Optional Information")
+        
+        # Q1: System Usability Scale (SUS-inspired)
+        q1 = st.radio(
+            "**Q1. System Usability**: The system is easy to learn and use for exploring causal evidence networks.",
+            likert_5,
+            index=None,
+            help="Rate your agreement with the statement about overall system usability."
+        )
+        
+        # Q2: Design and Interface
+        q2 = st.radio(
+            "**Q2. Interface Design**: The visual design and layout facilitate efficient navigation and information discovery.",
+            likert_5,
+            index=None,
+            help="Evaluate the quality of the user interface design."
+        )
+        
+        # Q3: Functionality
+        q3 = st.radio(
+            "**Q3. Functional Completeness**: The system provides useful features for evidence-based DAG exploration and triangulation analysis.",
+            likert_5,
+            index=None,
+            help="Assess the usefulness of available features."
+        )
+        
+        # Q4: Information Architecture
+        q4 = st.radio(
+            "**Q4. Information Clarity**: The evidence behind each edge, variable classification systems, and relationship directions are clearly presented and understandable.",
+            likert_5,
+            index=None,
+            help="Evaluate clarity of information presentation, including evidence transparency and variable classifications."
+        )
+        
+        # Q5: Scientific Rigor
+        q5 = st.radio(
+            "**Q5. Methodological Transparency**: The DAG generation methodology and evidence integration approach are adequately documented and transparent.",
+            likert_5,
+            index=None,
+            help="Assess transparency of scientific methodology."
+        )
+        
+        # Q6: Short answer - Design strengths
+        st.markdown("**Q6. Design Strengths** (Short answer): What aspects of the system's design do you find most effective?")
+        q6_text = st.text_area(
+            "Please describe 2-3 specific design elements that enhance usability or scientific rigor:",
+            height=80,
+            key="q6_design",
+            help="Examples: color coding, filtering options, interactive visualizations, etc."
+        )
+        
+        # Q7: Short answer - Usability improvements
+        st.markdown("**Q7. Usability Improvements** (Short answer): What enhancements would make the system even more user-friendly?")
+        q7_text = st.text_area(
+            "Please suggest improvements for navigation, feature discovery, or workflow (if any):",
+            height=80,
+            key="q7_usability",
+            help="Optional: Share ideas for making the system more intuitive or efficient."
+        )
+        
+        # Q8: Scientific Impact
+        q8 = st.radio(
+            "**Q8. Research Utility**: This system would be valuable for my research in causal inference or evidence synthesis.",
+            likert_5,
+            index=None,
+            help="Assess potential research applications."
+        )
+        
+        # Q9: Comparative Advantage
+        q9 = st.radio(
+            "**Q9. Innovation**: The integration of DAG structure with evidence triangulation represents a novel and useful approach.",
+            likert_5,
+            index=None,
+            help="Evaluate the innovative aspects of the methodology."
+        )
+        
+        # Q10: Short answer - Overall assessment
+        st.markdown("**Q10. Overall Assessment** (Short answer): Provide a brief evaluation highlighting the system's strengths and contributions.")
+        q10_text = st.text_area(
+            "Please provide a concise assessment (2-3 sentences) covering the system's scientific contribution, usability strengths, and potential for future enhancement:",
+            height=100,
+            key="q10_overall",
+            help="Focus on strengths and positive contributions, with optional suggestions for enhancement."
+        )
+        
+        # Optional demographics
+        st.divider()
+        st.markdown("### Optional Demographics")
         
         role = st.selectbox(
-            "Your role (optional):",
-            ["", "Researcher/Academic", "Clinician", "Student", "Data Scientist/Analyst", "Other"],
+            "Primary role:",
+            ["", "Researcher/Academic", "Clinician", "Graduate Student", "Data Scientist", "Other"],
             index=0
         )
         
-        other_role = ""
-        if role == "Other":
-            other_role = st.text_input("Please specify:", key="other_role")
-        
-        additional_comments = st.text_area(
-            "Any additional comments or suggestions? (optional)",
-            height=100,
-            key="comments"
+        experience = st.selectbox(
+            "Experience with causal inference methods:",
+            ["", "Expert", "Advanced", "Intermediate", "Beginner", "None"],
+            index=0
         )
         
         # Submit button
-        submitted = st.form_submit_button("Submit Responses", type="primary")
+        submitted = st.form_submit_button("Submit Evaluation", type="primary")
         
         if submitted:
             # Validate required fields
-            required_fields = [q1, q2, q3, q4, q5, q6, q7, q8, q9]
-            if None in required_fields:
-                st.error("Please answer all required questions (Q1-Q9).")
+            required_quantitative = [q1, q2, q3, q4, q5, q8, q9]
+            required_qualitative = [q6_text, q10_text]  # Q7 is optional
+            
+            if None in required_quantitative:
+                st.error("Please answer all quantitative questions (Q1-Q5, Q8-Q9).")
+            elif not all(required_qualitative):
+                st.error("Please provide responses to required short-answer questions (Q6, Q10). Q7 is optional.")
             else:
-                # Create response list with Question and Answer columns
+                # Create response list
                 responses_list = []
                 
-                # Add Q1-Q9 with scores
-                questions_data = [
-                    ("Q1. Overall Satisfaction", q1),
-                    ("Q2. Ease of Use", q2),
-                    ("Q3. Network Explorer Usefulness", q3),
-                    ("Q4. Strategy Evidence Viewer Value", q4),
-                    ("Q5. Evidence Triangulation Effectiveness", q5),
-                    ("Q6. Time Savings", q6),
-                    ("Q7. Contribution to Understanding", q7),
-                    ("Q8. Likelihood to Use", q8),
-                    ("Q9. Likelihood to Recommend", q9),
+                # Quantitative questions with scores
+                quantitative_questions = [
+                    ("Q1. System Usability", q1),
+                    ("Q2. Interface Design", q2),
+                    ("Q3. Functional Completeness", q3),
+                    ("Q4. Information Clarity", q4),
+                    ("Q5. Methodological Transparency", q5),
+                    ("Q8. Research Utility", q8),
+                    ("Q9. Innovation", q9),
                 ]
                 
-                for question, answer in questions_data:
+                for question, answer in quantitative_questions:
                     score = extract_score(answer)
                     answer_text = extract_text(answer)
                     responses_list.append({
                         "Question": question,
-                        "Answer": f"{answer_text} (Score: {score})",
-                        "Score": score
+                        "Answer": answer_text,
+                        "Score": score,
+                        "Type": "Quantitative"
                     })
                 
-                # Add Q10 strengths
-                if strength1:
-                    responses_list.append({"Question": "Q10. Strength 1", "Answer": strength1, "Score": ""})
-                if strength2:
-                    responses_list.append({"Question": "Q10. Strength 2", "Answer": strength2, "Score": ""})
-                if strength3:
-                    responses_list.append({"Question": "Q10. Strength 3", "Answer": strength3, "Score": ""})
+                # Qualitative questions
+                qualitative_questions = [
+                    ("Q6. Design Strengths", q6_text),
+                    ("Q7. Usability Improvements", q7_text if q7_text else "No suggestions provided"),
+                    ("Q10. Overall Assessment", q10_text),
+                ]
                 
-                # Add optional fields
+                for question, answer in qualitative_questions:
+                    responses_list.append({
+                        "Question": question,
+                        "Answer": answer,
+                        "Score": "",
+                        "Type": "Qualitative"
+                    })
+                
+                # Demographics
                 if role:
-                    responses_list.append({"Question": "Role", "Answer": role, "Score": ""})
-                if other_role:
-                    responses_list.append({"Question": "Other Role", "Answer": other_role, "Score": ""})
-                if additional_comments:
-                    responses_list.append({"Question": "Additional Comments", "Answer": additional_comments, "Score": ""})
+                    responses_list.append({"Question": "Role", "Answer": role, "Score": "", "Type": "Demographic"})
+                if experience:
+                    responses_list.append({"Question": "Experience Level", "Answer": experience, "Score": "", "Type": "Demographic"})
                 
                 # Store in session state
                 st.session_state.questionnaire_responses = responses_list
-                st.success("Thank you for your feedback! Your responses have been recorded.")
+                st.success("Thank you for your evaluation! Your responses have been recorded.")
                 st.rerun()
     
     # Display results and download button outside the form
     if st.session_state.questionnaire_responses:
         st.divider()
-        st.subheader("Your Responses Summary")
+        st.subheader("Evaluation Summary")
         
-        # Create DataFrame with Question and Answer columns
+        # Create DataFrame
         response_df = pd.DataFrame(st.session_state.questionnaire_responses)
-        st.dataframe(response_df[["Question", "Answer"]], use_container_width=True, hide_index=True)
         
-        # Calculate average score for Q1-Q9
-        scores = [r["Score"] for r in st.session_state.questionnaire_responses if r.get("Score") and isinstance(r["Score"], int)]
-        if scores:
-            avg_score = sum(scores) / len(scores)
-            st.metric("Average Score (Q1-Q9)", f"{avg_score:.2f} / 5.00")
+        # Separate quantitative and qualitative
+        quantitative_df = response_df[response_df["Type"] == "Quantitative"]
+        qualitative_df = response_df[response_df["Type"] == "Qualitative"]
         
-        # Download button (outside form)
-        csv_data = response_df[["Question", "Answer"]].to_csv(index=False)
+        # Display quantitative scores
+        if not quantitative_df.empty:
+            st.markdown("**Quantitative Ratings:**")
+            st.dataframe(
+                quantitative_df[["Question", "Answer", "Score"]],
+                use_container_width=True,
+                hide_index=True
+            )
+            
+            # Calculate average score
+            scores = [r["Score"] for r in st.session_state.questionnaire_responses 
+                     if r.get("Score") and isinstance(r["Score"], int)]
+            if scores:
+                avg_score = sum(scores) / len(scores)
+                st.metric("Average Score (Q1-Q5, Q8-Q9)", f"{avg_score:.2f} / 5.00")
+        
+        # Display qualitative responses
+        if not qualitative_df.empty:
+            st.markdown("**Qualitative Feedback:**")
+            for _, row in qualitative_df.iterrows():
+                st.markdown(f"**{row['Question']}:**")
+                st.write(row['Answer'])
+                st.markdown("---")
+        
+        # Download button
+        csv_data = response_df[["Question", "Answer", "Score", "Type"]].to_csv(index=False)
         st.download_button(
-            "Download Your Responses (CSV)",
+            "Download Evaluation Responses (CSV)",
             data=csv_data,
-            file_name=f"evaluation_response_{pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')}.csv",
+            file_name=f"evaluation_{pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')}.csv",
             mime="text/csv",
         )
         
         st.info("""
-        **Next Steps:**
-        - Please save your downloaded response file
-        - You may submit it via email to the project team or through your preferred channel
-        - Your feedback will be used to improve the system and may be included in research reports
+        **Data Usage**: Your responses will be used for:
+        - Academic research and publication
+        - System usability analysis
+        - Methodological validation
+        - Future system improvements
         """)
         
         # Reset button
-        if st.button("Start New Response"):
+        if st.button("Submit New Evaluation"):
             st.session_state.questionnaire_responses = None
             st.rerun()
 
